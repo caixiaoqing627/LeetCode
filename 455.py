@@ -1,4 +1,7 @@
+#思路一：
+#正向的
 #贪心算法，对孩子胃口和饼干大小排序，优先满足胃口小的孩子
+
 class Solution(object):
     def findContentChildren(self, g, s):
         """
@@ -15,3 +18,8 @@ class Solution(object):
                 child+=1
             biscuit+=1
         return child
+
+    
+    #思路二：
+    #从数组的最后进行比较
+    
